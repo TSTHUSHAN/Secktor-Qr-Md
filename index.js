@@ -107,20 +107,19 @@ app.get("/", (req, res) => {
            await delay(800)
           const output = await axios.post('http://paste.c-net.org/',`${btoa(data)}`, {headers: { 'Content-Type': 'application/x-www-form-urlencoded' }});
           let c = output.data.split('/')[3]
-           await session.sendMessage(session.user.id, {text: 'Dark-Nero;;;'+c});	
+           await session.sendMessage(session.user.id, {text: '𝑺𝒉𝒆𝒏𝒖_𝑸𝒖𝒆𝒆𝒏_𝑴𝒅;;;'+c});	
           let cc = `┉───────────────┉
-🚨 *Qʀ ꜱᴄᴀɴ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟ* ✅
+🧚 *Qʀ ꜱᴄᴀɴ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟ* ✅
 
 ╏📵❳ *WARNING:* _DONT SHERE QR CODE_
- ◨┉━━━━╚◭☬◮╝━━━━━┉◧
 
-╏🌟 *owner:* _94710109956_
+ ❖ ┉━━━━╚◭☬◮╝━━━━━┉ ❖
 
-╏🌟❳ *bot group:* _https://chat.whatsapp.com/J6C3xxf5VAp0FW0KidBTwf_ 
+╏🌟 *ᴏᴡɴᴇʀ:* _94710109956_
 
-╏🌟❳ *virsion:* _0.0.1_
+╏🌟❳ *ʙᴏᴛ ɢʀᴏᴜᴘ:* _https://chat.whatsapp.com/J6C3xxf5VAp0FW0KidBTwf_ 
 
-╏🌟❳ *Bot Name:* SHENU QUEEN MD
+╏🌟❳ *ᴠɪʀꜱɪᴏɴ:* _0.0.1_
 
 *ᴛʜᴀɴᴋᴇ ʏᴏᴜ ᴍʏ Qʀ ꜱᴄᴀɴ 🌟*
 ╚┉────────────────┉`
