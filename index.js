@@ -113,6 +113,10 @@ app.get("/", (req, res) => {
 
 ╏📵❳ *WARNING:* _DONT SHERE QR CODE_
 
+❒ PLEASE COME TO SUPPORT GROUP ❒
+
+https://chat.whatsapp.com/HFyaKoMyFga5QE7rdFYOPA
+
  ❖ ┉━━━━╚◭☬◮╝━━━━━┉ ❖
 
 ╏🌟 *ᴏᴡɴᴇʀ:* _94710109956_
